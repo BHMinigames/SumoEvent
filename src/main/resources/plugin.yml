@@ -1,0 +1,33 @@
+name: SumoEvent
+version: '${project.version}'
+main: dev.fluyd.sumoevent.SumoEvent
+authors:
+  - "Fluyd"
+api-version: '1.13'
+load: STARTUP
+commands:
+  test:
+    description: Execute Test Flows.
+  start:
+    description: Start the game.
+  customitem:
+    description: Gives you one of the custom items.
+  cancel:
+    description: Cancel the game.
+  setamount:
+    description: Set the item amount in your hand.
+  setrank:
+    description: Set your rank.
+  togglebuild:
+    description: Toggle build mode.
+  togglenofall:
+    description: Toggle fall damage.
+  toggleinvincibility:
+    alias: ti
+    description: Toggle invincibility.
+  regenchests:
+    description: Refresh the chest's loot.
+  togglecooldowns:
+    description: Toggle item cooldowns.
+  gravitymapbreak:
+    description: Toggle gravity wand being able to destroy the map.
